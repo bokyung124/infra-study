@@ -57,21 +57,29 @@ docker push fortune:20.02
 > error   
 `denied: requested access to the resource is denied` error
 
+<br>
+
 1) docker hub login
 - docker hub 회원가입
 - `docker hub login` 명령어 입력 후 username, pwd 입력
 
 <img width="791" alt="스크린샷 2023-06-27 오전 9 54 04" src="https://github.com/bokyung124/infra-study/assets/53086873/afe4c278-7070-4aa9-ac08-f9eaad8d13d8">
 
+<br>
+
 2) docker image tag명 변경
 - `docker image tag fortune:20.02 (username)/fortune:20.02`
 
 <img width="794" alt="스크린샷 2023-06-27 오전 9 54 17" src="https://github.com/bokyung124/infra-study/assets/53086873/1df50704-1bb9-460d-b955-9a51cd2ed88c">
 
+<br>
+
 3) 다시 push
 - `docker push (username)/fortune:20.02`
 
 <img width="766" alt="스크린샷 2023-06-27 오전 9 54 25" src="https://github.com/bokyung124/infra-study/assets/53086873/8da04ca9-2cef-4114-a0e4-e0461fce193b">
+
+<br>
 
 4) docker hub에서 확인
 
