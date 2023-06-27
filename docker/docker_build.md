@@ -54,7 +54,7 @@ docker push fortune:20.02
 
 ---
 
-> error
+> error   
 `denied: requested access to the resource is denied` error
 
 1) docker hub login
